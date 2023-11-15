@@ -1,0 +1,9 @@
+[package]
+name = "counter"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/devnet" }
+
+[addresses]
+counter = "0x3571724985e9d07afa41c9438a61bd7e08899d17922ce0117f408e1795513efc"
