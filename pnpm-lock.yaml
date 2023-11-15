@@ -1,12 +1,11 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@mysten/dapp-kit': 0.7.0
-  '@mysten/sui.js': 0.45.1
+  '@mysten/dapp-kit': 0.8.0
+  '@mysten/sui.js': 0.46.0
   '@radix-ui/colors': ^3.0.0
-  '@radix-ui/react-icons': ^1.3.0
-  '@radix-ui/themes': ^2.0.0
-  '@tanstack/react-query': ^5.0.0
+  '@radix-ui/themes': ^2.0.1
+  '@tanstack/react-query': ^5.8.4
   '@types/react': ^18.2.15
   '@types/react-dom': ^18.2.7
   '@typescript-eslint/eslint-plugin': ^6.1.0
@@ -22,10 +21,9 @@ specifiers:
   vite: ^4.4.4
 
 dependencies:
-  '@mysten/dapp-kit': 0.7.0_z4v7ffvku7whzlhdz7lokyxipa
-  '@mysten/sui.js': 0.45.1
+  '@mysten/dapp-kit': 0.8.0_z4v7ffvku7whzlhdz7lokyxipa
+  '@mysten/sui.js': 0.46.0
   '@radix-ui/colors': 3.0.0
-  '@radix-ui/react-icons': 1.3.0_react@18.2.0
   '@radix-ui/themes': 2.0.1_odyphbpq4up353b3xkkenmy5wy
   '@tanstack/react-query': 5.8.4_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
@@ -351,14 +349,14 @@ packages:
       bs58: 5.0.0
     dev: false
 
-  /@mysten/dapp-kit/0.7.0_z4v7ffvku7whzlhdz7lokyxipa:
-    resolution: {integrity: sha512-OlMeYI9DSdRFHA3G1E4nmq14xvUZCJk6U1UGq1rwlJ8ayROSx+l4mpniN6coLL+W+x3noiH5i1BbWh8Z0wZGbQ==}
+  /@mysten/dapp-kit/0.8.0_z4v7ffvku7whzlhdz7lokyxipa:
+    resolution: {integrity: sha512-nG3zC0y712qjtRytkNExCN3ge8LoWxq6nnBRzl5wio5oV3dftAtQQFtMw2D2hV6y95uoYGaD9IwIJHjtuFCACA==}
     peerDependencies:
       '@tanstack/react-query': ^5.0.0
       react: '*'
     dependencies:
-      '@mysten/sui.js': 0.45.1
-      '@mysten/wallet-standard': 0.8.7
+      '@mysten/sui.js': 0.46.0
+      '@mysten/wallet-standard': 0.8.8
       '@radix-ui/react-dialog': 1.0.5_odyphbpq4up353b3xkkenmy5wy
       '@radix-ui/react-dropdown-menu': 2.0.6_odyphbpq4up353b3xkkenmy5wy
       '@radix-ui/react-slot': 1.0.2_u5zja476buyywzbvglb2fbhaii
@@ -379,8 +377,8 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@mysten/sui.js/0.45.1:
-    resolution: {integrity: sha512-B6RKfBAR1yr3EvHyQzXgkyOGOXE7jUbgblyitK/25CGp4Uba4VHEZ/N5DCbiuTJdt2k1H42sSXqIGfYqHN+6Cw==}
+  /@mysten/sui.js/0.46.0:
+    resolution: {integrity: sha512-jWa+pSKaLCMehJwn32RfuX9mwJ+d8pqjN2ivpr6ZH2AZHII7/AB1aJ+dpdPiAGPr2sDh3qIBtp87zwb4suSblw==}
     engines: {node: '>=16'}
     dependencies:
       '@mysten/bcs': 0.8.1
@@ -399,10 +397,10 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@mysten/wallet-standard/0.8.7:
-    resolution: {integrity: sha512-kY/gc8WHeqcWPgnQ69l9jbyXSsnVJqddspX1rvLF5bZV1Ud7ZrVO1V+pL4LNTxeQq02EHz4n5DLOWGHDd3mrTg==}
+  /@mysten/wallet-standard/0.8.8:
+    resolution: {integrity: sha512-QDI0RLXkgPWr3k6+dYWm8OUZ5LXle8oq8moL/ufu3RTcotP3HIWx9JsAue0HGWCc3wRlSnsf3YYBmy962vcauA==}
     dependencies:
-      '@mysten/sui.js': 0.45.1
+      '@mysten/sui.js': 0.46.0
       '@wallet-standard/core': 1.0.3
     transitivePeerDependencies:
       - bufferutil
@@ -880,14 +878,6 @@ packages:
       '@types/react-dom': 18.2.15
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-    dev: false
-
-  /@radix-ui/react-icons/1.3.0_react@18.2.0:
-    resolution: {integrity: sha512-jQxj/0LKgp+j9BiTXz3O3sgs26RNet2iLWmsPyRz2SIcR4q/4SbazXfnYwbAr+vLYKSfc7qxzyGQA1HLlYiuNw==}
-    peerDependencies:
-      react: ^16.x || ^17.x || ^18.x
-    dependencies:
-      react: 18.2.0
     dev: false
 
   /@radix-ui/react-id/1.0.1_u5zja476buyywzbvglb2fbhaii:
